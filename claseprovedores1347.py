@@ -17,16 +17,16 @@ class Provedores:
             print(f"Permiso :{Proovedor.permiso}")
             print(f"Apellido :{Proovedor.apellido}")
         def lista_Drogin(self):
-            list_mercaDrogin=("fenta","mota","cristal")
+            list_mercaDrogin=("fenta","mota","cristal","cocodrile","verde")
             for x in list_mercaDrogin:
                 print(x)
         def tupla_Drogin(self):
-            tupla_colores_cristal=("Rosa", "Negro", "Blanco","Azul cielo")
+            tupla_colores_cristal=("Rosa", "Negro", "Blanco","Azul cielo","amarillo")
             for x in tupla_colores_cristal:
                 print(x)
         def diccionario_Drogin(self):
-            diccionario = {"fenta": "$430","mota": "$376","cristal": "$600"
-}
+            diccionario = {"fenta": "$430","mota": "$376","cristal": "$600",
+"cocodrile": "$830", "verde": "$190",}
             for x, y in diccionario.items():
                 print(x,":",y)
 # zona de creacion de objetos
