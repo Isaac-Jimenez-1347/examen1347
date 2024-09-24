@@ -29,6 +29,10 @@ class Provedores:
 "cocodrile": "$830", "verde": "$190",}
             for x, y in diccionario.items():
                 print(x,":",y)
+        def altas(self):
+            print("los datos se guardaron correctamente")
+        def bajas(self):
+            print("los datos se borraron correctamente")
 # zona de creacion de objetos
 Proovedor=Provedores()
 #zona de usando objeto
@@ -47,3 +51,5 @@ print("\ncolores del cristal\n")
 datos.tupla_Drogin()
 print("\nprecios de la merca\n")
 datos.diccionario_Drogin()
+Proovedor.altas()
+Proovedor.bajas()
